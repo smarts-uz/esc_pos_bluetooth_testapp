@@ -343,7 +343,7 @@ class _MyHomePageState extends State<MyHomePage> {
     printerManager.selectPrinter(printer);
 
     // TODO Don't forget to choose printer's paper
-    const PaperSize paper = PaperSize.mm80;
+    const PaperSize paper = PaperSize.mm58;
     final profile = await CapabilityProfile.load();
 
     // TEST PRINT
